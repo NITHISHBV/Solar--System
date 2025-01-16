@@ -1,0 +1,167 @@
+.container {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+
+.sun {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(202, 70, 22);
+    border-radius: 100%;
+    box-shadow: 0 0 30px red;
+}
+
+.mercuryorbit,
+.venusorbit,
+.earthorbit,
+.marsorbit,
+.jupiterorbit,
+.saturnorbit,
+.uranesorbit,
+.neptuneorbit {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px dashed gray;
+    border-radius: 100%;
+    animation: animate linear infinite ;
+    animation-duration: 10s;
+
+}
+
+.mercury {
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    border-radius: 100%;
+    margin-left: 10px;
+    box-shadow: 0 0 20px orangered;
+
+}
+
+.venusorbit {
+    width: 150px;
+    height: 150px;
+    animation-duration: 20s;
+}
+
+.venus {
+    width: 25px;
+    height: 25px;
+    background-color: greenyellow;
+    border-radius: 100%;
+    margin-left: 23px;
+    box-shadow: 0 0 20px orangered;
+
+}
+
+.earthorbit {
+    width: 200px;
+    height: 200px;
+    animation-duration: 30s;
+}
+
+.earth {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(53, 20, 161);
+    border-radius: 100%;
+    margin-left: 32px;
+    box-shadow: 0 0 20px orangered;
+
+}
+
+.marsorbit {
+    width: 250px;
+    height: 250px;
+    animation-duration: 40s;
+}
+
+.mars {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(161, 15, 15);
+    border-radius: 100%;
+    margin-left: 48px;
+    box-shadow: 0 0 20px orangered;
+
+}
+
+.jupiterorbit {
+    width: 300px;
+    height: 300px;
+    animation-duration: 50s;
+}
+
+.jupiter {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(142, 46, 117);
+    border-radius: 100%;
+    margin-left: 47px;
+    box-shadow: 0 0 20px orangered;
+
+}
+
+.saturnorbit {
+    width: 350px;
+    height: 350px;
+    animation-duration: 60s;
+}
+
+.saturn {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(227, 98, 143);
+    border-radius: 100%;
+    margin-left: 76px;
+    box-shadow: 0 0 20px orangered;
+
+}
+   
+.uranesorbit {
+    width: 400px;
+    height: 400px;
+    animation-duration: 70s;
+}
+
+.uranes {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(9, 3, 29);
+    border-radius: 100%;
+    margin-left: 100px;
+    box-shadow: 0 0 20px orangered;
+
+}
+
+.neptuneorbit {
+    width: 450px;
+    height: 450px;
+    animation-duration: 80s;
+}
+
+.neptune {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(169, 201, 62);
+    border-radius: 100%;
+    margin-left: 123px;
+    box-shadow: 0 0 20px orangered;
+
+}
+
+@keyframes animate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
